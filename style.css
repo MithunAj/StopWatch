@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+#title{
+    margin-top: 8vw;
+    margin-left: 28%;
+    font-size:7vw ;
+    background-color:black;
+    color:#cf7575;
+    font-family: 'Pacifico', cursive;
+}
+#timer{
+  
+    margin-top: 2vw;
+    margin-left: 15%;
+    width: 60%;
+    height: 16vw;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#minutes,#seconds,#miliseconds{
+    background-color: black         ;
+    display: flex;
+    justify-content: center;
+    font-size: 12vw;
+    margin-top: 1.5%;
+    height: 80%;
+    width: 30%;
+    font-family: 'VT323', monospace;
+    border: 1px black solid;
+    color: white;
+}
+
+#minutes-blinker,#seconds-blinker{
+    justify-content: space-between;
+    margin-top: 1.5%;
+    height: 80%;
+    width: 2%;
+    border: 1px black solid;
+}
+#controls{
+    margin-top: 2%;
+    margin-left: 25%;
+    display: flex;
+    width: 40%;
+    height: 3vw;
+    justify-content: space-evenly;
+    border: 1px black solid;
+}
+
+#b-start,#b-stop,#b-reset{
+    margin-top: 1.5%;
+}
+
+.dots{
+    padding-top: .3vw;
+    font-size: 4.5vw;
+    color: white;
+}
+
+button{
+    width: 6vw;
+    height: 2vw;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #00ffab;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.2vw;
+    font-family: 'Pacifico',cursive;
+    align-items: center;
+}
+
+button:hover{
+cursor: pointer;
+}
